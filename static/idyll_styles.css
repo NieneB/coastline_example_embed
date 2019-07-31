@@ -896,15 +896,23 @@ img {
 body{
   padding:0px !important;
   margin:0px  !important;
+  overflow: hidden !important;
 }
 
+.idyll-text-container {
+    max-width: 90vw !important;
+}
 .idyll-root {
   box-sizing: border-box;
   padding:0px !important;
   margin:0px  !important;
-  /* padding: 80px !important; */
+  max-width: 90vw !important;
 }
 
-.panelfloat{
-  padding: 80px;
+.left{
+  padding: 40px;
+}
+
+input{
+  margin: 0;
 }
